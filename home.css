@@ -55,3 +55,23 @@ h1{
     margin-bottom: 2rem;
     color: rgb(186, 218, 218);
 }
+
+.container{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    padding: 13px 22px;
+
+}
+
+.container ul{
+display: flex;
+}
+
+.item{
+    text-decoration: none;
+    color: white;
+    size: 1.2rem;
+}
