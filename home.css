@@ -16,17 +16,16 @@ body{
     background-clip: text;
     -webkit-text-fill-color: transparent;
     border-radius: 20px;
-    
-    background: fixed linear-gradient(90deg, rgba(255, 0, 0, 1) 0%,
-    rgba(255, 154, 0, 1) 10%,
-    rgb(145, 174, 144) 30%,
-    rgb(72, 216, 192) 60%,
-    rgb(10, 65, 147) 90%,
-    rgb(246, 151, 63)100%);
+    background:linear-gradient(to top, rgb(216, 168, 168)34% , rgb(175, 143, 113)100%);
 
     padding: 10px 15px;
     width: 27%;
-    color: rgba(129, 140, 73, 0.805);
+    color: rgb(5, 5, 5);
+}
+
+.button:hover{
+    transition: all 0.3s ease-in-out;
+    transform: scale(1.03);
 }
 
 .input{
